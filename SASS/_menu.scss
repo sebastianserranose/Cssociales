@@ -1,0 +1,48 @@
+//menu 
+
+Header{
+    width: 100%;
+    background-color: #92ebcd;
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menu li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    flex-grow: 1;
+    border-right: 1px solid #fff;
+    
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #ffffe3;
+    text-decoration: none;
+}
+

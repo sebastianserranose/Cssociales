@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+</head>
+<body>	
+	<!-- Menú de navegación del sitio -->
+			<header>
+				<input type="checkbox" id="btn-menu">
+				<label for="btn-menu"><img	src="img/icons8-menú-30.png">"</label>
+	
+				<nav class="menu">
+					<ul>
+						<li><a href="Index.html"></a>Inicio</li>
+						<li><a href="modulos.html"></a>Modulos</li>
+						<li><a href="contacto.html"></a>Contactos</li>
+					</ul>
+				</nav>
+			</header>
+
+	<h1>Contactanos</h1>
+	<h2>Deje aquí sus sugerencías y/o experiencia con esta ruta de aprendizaje</h2>
+		<!--Inicio sugerencias-->
+	 	<section>
+	 		<form action="envia.php" method="POST" enctype="multipart/from-data" class="checkBoxx">
+	 				<label for="nombreyapellido" class="checkbox">Nombre y apellido</label><br>
+	 					<input type="text" name="nombreyapellido" maxlength="30" class="checkbox__input"><br>
+	 				<label for="password">Contraseña</label><br>
+	 					<input taype="password"><br>	
+	 	   
+	 			<form>
+	 				<label for="edad" class="chackbox" >Edad</label><br>
+		 				<select name="edad" class="checkbox__input">
+		 					<option value="0"></option>
+		 					<option value="15-17">15-18</option>
+		 					<option value="18-20">19-20</option>
+		 					<option value="20-25">21-25</option>
+		 					<option value="25omas">26 +</option>
+
+		 				</select>
+		 				<br>
+		 				<textarea>Deje su experiencia y/o sugerencia 
+		 				</textarea>
+		 				<br>	
+		 				<input type="submit" name="submit" value="Enviar">
+		 				<input type="reset" name="reset" value="Limpiar">
+		       </form>
+		   </form>
+		</section>
+		<br>
+		 <!--Fin sugerencias-->
+		 <footer>
+		 	<p>Este es una trabajo para el curso de desarrollo web</p>
+		 </footer>
+
+
+
+</body>
+</html>
